@@ -201,6 +201,18 @@ nav {
     border-radius: 10px;
 }
 
+.signincontainer {
+    width: 50%;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.283);
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+
+
+
 .signup-header{
     width: 100%;
     margin-left: 5%;
