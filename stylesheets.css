@@ -88,42 +88,7 @@ nav {
 .title-link:hover {
     text-decoration: underline;
 }
-/* Style the dropdown button */
-#myDropdown{
-    background-color: transparent;
-    border: none;
-    color: white;
-}
-.dropbtn {
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #990000;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  /* Style the dropdown links */
-  .dropdown-content a {
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #990000;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
   
   /*Tabs*/
 .tab {
@@ -190,6 +155,39 @@ nav {
     border-radius: 20px;
 }
 
+/*Sign in Page*/
+.signincontainer {
+    width: 50%;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.283);
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background: url(/images2/pexels-alexander-krivitskiy-1271374.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign-in{
+    background: white;
+    width: 70%;
+    height: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    box-shadow: -1px 3px 13px -2px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 3px 13px -2px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 3px 13px -2px rgba(255,255,255,0.75);
+}
+
+.signinforms {
+    
+}
+
+
+
 /*Broadcast Page*/
 .signupcontainer {
     width: 50%;
@@ -209,6 +207,9 @@ nav {
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 10px;
+    background: url(/images2/pexels-alexander-krivitskiy-1271374.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
