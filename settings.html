@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActiveVibes</title>
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="headerphoto-container">
+        <img class="logo" src="images/Active.png" width="100%" alt="Error">
+    </div>
+   <nav>
+        <div class="nav-container">
+            <h5 class="home"><a class="home-btn" href="/index.html">Home</a></h5>
+        </div>
+        <div class="nav-container">
+            <div class="username">
+                <a href="/sign_in.html"><img class="usernameicon" src="/images/icons8-username-30.png" width="30px" alt="Error"></a>
+                <a class="signup-link" href="/sign_in.html">Sign In</a>
+            </div>
+        </div>
+        <div class="nav-container">
+            <h1 class="title"><a class="title-link" href="/sign_up.html">Become a Broadcaster</a></h1>
+        </div>
+        <div class="nav-container">
+            
+        </div>
+        <div class="nav-container">
+            <a href="/settings.html"><img class="gear-icon" src="/images/icons8-gear-30 (2)-modified.png" alt=""></a>
+        </div>
+    </nav>
+
+    <div class="settings-container">
+        <div class="settings-content">
+            <h6 class="options">Options</h6>
+                <p class="regions">Visible Regions:</p>
+                <div class="settings-options">
+                    <label class="locations">
+                        <input class="checkbox-options" type="checkbox" name="northAmerica" id="northAmerica">
+                        North America
+                    </label>
+                    <br>
+                    <label class="locations">
+                        <input class="checkbox-options" type="checkbox" name="southAmerica" id="southAmerica">
+                        South America
+                    </label>
+                    <br>
+                    <label class="locations">
+                        <input class="checkbox-options" type="checkbox" name="asia" id="asia">
+                        Asia
+                    </label>
+                    <br>
+                    <label class="locations">
+                        <input class="checkbox-options" type="checkbox" name="europeRussia" id="europeRussia">
+                        Europe/Russia
+                    </label>
+                    <br>
+                    <label class="locations">
+                        <input class="checkbox-options" type="checkbox" name="other" id="northAmerica">
+                        Other
+                    </label>
+                </div>
+        </div>
+        <div class="settings-content">
+            <p class="setting">Settings:</p>
+            <div class="settings-options">
+                <label class="locations">
+                    <input class="checkbox-options" type="checkbox" name="showLocations" id="showLocations">
+                    Show Locations
+                </label>
+                <br>
+                <label class="locations">
+                    <input class="checkbox-options" type="checkbox" name="showrecomendedcams" id="showrecomendedcams">
+                    Show recommended cams
+                </label>
+                <br>
+                <label class="locations">
+                    <input class="checkbox-options" type="checkbox" name="previewRooms" id="previewRooms">
+                    Preview Rooms
+                </label>
+                <br>
+                <label class="locations">
+                    <input class="checkbox-options" type="checkbox" name="darkMode" id="darkMode">
+                    Dark Mode
+                </label>
+                <br>
+            </div>
+
+        </div>
+        <div class="settings-content">
+            <div class="settings-options">
+                <a class="chatsettings-btn" href="/chat_settings.html"><h5 class="chatsettings-link">Chat Settings</h5></a>
+            </div>
+        </div>
+        <div class="settings-content">
+            <div class="settings-options">
+                <p class="setting">Refresh thumbnails every:</p>
+                <label for="seconds"></label>
+                <select id="seconds" name="seconds">
+                    <option value="10">10 Seconds</option>
+                    <option value="20">20 Seconds</option>
+                    <option value="30">30 Seconds</option>
+                    <option value="40">40 Seconds</option>
+                    <option value="50">50 Seconds</option>
+                    <option value="60">60 Seconds</option>
+                </select>
+            </div>
+        </div>
+        <div class="settings-content">
+            <button class="close-button">X</button>
+        </div>
+    </div>
+
+</body>
+</html>
