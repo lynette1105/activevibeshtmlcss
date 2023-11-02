@@ -66,11 +66,18 @@ nav {
 .signup-link {
     text-decoration: none;
     color: white;
-    margin-top: 3px;
+    margin-top: 0;
     font-size: 20px;
+    border: 1px solid white;
+    padding: 1.5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 110px;
 }
 .signup-link:hover {
-    text-decoration: underline;
+    color: #990000;
+    border: 1px solid #990000;
+    background: white;
 }
 
 .title {
@@ -177,16 +184,22 @@ nav {
 
 .sign-in{
     background: rgba(255, 255, 255, 0.329);
-    width: 70%;
-    height: 70%;
-    margin-top: 15%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 10px;
     box-shadow: -1px 3px 13px -2px black;
 }
+.si-logo {
+    margin-top: -20px;
+    margin-left: 40%;
+}
 
-
+.text-logo {
+    margin-left: 20%;
+}
 .sign_in-title {
     font-family: sans-serif;
     font-weight: bold;
@@ -276,6 +289,19 @@ nav {
     color: #990000;
 }
 
+.ntpv{
+    margin-left: 10%;
+}
+.signupnow-link {
+    text-decoration: none;
+    margin-left: 10%;
+    color: #990000;
+    font-size: 25px;
+}
+
+.signupnow-link:hover {
+    text-decoration: underline;
+}
 /*Broadcast Page*/
 .signupcontainer {
     width: 50%;
