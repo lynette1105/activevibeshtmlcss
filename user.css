@@ -57,7 +57,6 @@ nav {
     border-radius: 5px;
     font-weight: bold;
     margin-left: 90px;
-    top: 5px;
 }
 .log-outbtn:hover {
     color: #990000;
@@ -138,4 +137,143 @@ nav {
     font-weight: bolder;
     font-size: 25px;
     float: right;
+}
+
+  /*Tabs*/
+.tab {
+    width: 100%;
+    height: auto;
+}
+
+#myTab {
+    width: 100%;
+}
+#nav-featured-tab {
+    color: #990000 ;
+    font-family: Josefin Sans;
+    font-weight: bold;
+}
+
+#nav-women-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-men-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-couples-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-trans-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+
+.tab-content {
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.contentcontainer {
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.card-img-top {
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.contentimagecontainer {
+    width: 450%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.imgcont{
+    margin-left: 0;
+    height: 200px;
+    display: grid;
+    border: 0.8px solid rgba(0, 0, 0, 0.368);
+    border-radius: 20px;
+}
+/*Rooms*/
+.rooms {
+    margin-top: 5px;
+}
+
+.rooms-btn {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    margin-left: 15px;
+}
+.rooms-btn:hover {
+    text-decoration: underline;
+}
+
+.room-container {
+    margin-top: 20px;
+    width: 45%;
+    margin-left: 2%;
+    height: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.361);
+    border-radius: 15px;
+    background-color: #990000;
+}
+
+.headings-roomcontainer {
+    width: 96%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.explosion {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.406);
+}
+
+.reportlink{
+    float: right;
+    margin-top: -40px;
+    font-family: Verdana;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.reportlink:hover {
+    color: rgba(255, 255, 255, 0.587);
+}
+
+.video-container {
+    width: 96%;
+    height: 300px;
+    margin-left: 2%;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.room-footer {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid black;
 }
