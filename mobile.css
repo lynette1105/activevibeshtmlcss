@@ -17,4 +17,23 @@
     #hamburger-icon {
         display: block;
     }
+    .mobile-menu {
+        margin-top: 10%;
+        background: #990000;
+        width: 70%;
+        margin-left: 30%;
+        list-style: none;
+    }
+    .navresponsive-link {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #navresponsive-broadcaster {
+        font-size: 21px;
+    }
+    .responsivelink {
+        margin-top: 25px;
+    }
 }
