@@ -1,0 +1,20 @@
+@media screen and (max-width:767px) {
+    html {
+        width: 100%;
+        margin: 0;
+    }
+    body {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.683);
+        margin: 0;
+    }
+    .headerphoto-container {
+        background: white;
+    }
+    .nav-container {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+}
