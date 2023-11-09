@@ -1,0 +1,191 @@
+@media screen and (max-width:576px) {
+    html {
+        width: 100%;
+        margin: 0;
+    }
+    body {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.683);
+        margin: 0;
+    }
+    .headerphoto-container {
+        background: white;
+    }
+    .nav-container {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+    .mobile-menu {
+        border-radius: 5px;
+        height: 70%;
+        margin-top: 11%;
+        background: #990000a7;
+        width: 70%;
+        margin-left: 30%;
+        list-style: none;
+    }
+    .navresponsive-link {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #logout {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .responsivelink {
+        margin-top: 25px;
+    }
+    /*Tabs*/
+    .tab {
+        width: 100%;
+        height: auto;
+    }
+    #myTab {
+        width: 100%;
+    }
+    #nav-featured-tab {
+        width: 100%;
+        color: #990000 ;
+        font-family: Josefin Sans;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    #nav-featured-tab:focus {
+        font-size: 35px;
+        color: black;
+    }
+    #nav-women-tab {
+        font-size: 25px;
+        width: 100%;
+        color: black;
+        font-family: Josefin Sans;
+    }
+    #nav-women-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
+    #nav-men-tab {
+        font-size: 25px;
+        width: 100%;
+        color: black;
+        font-family: Josefin Sans;
+    }
+    #nav-men-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
+    #nav-couples-tab {
+        font-size: 25px;
+        width: 100%;
+        color: black;
+        font-family: Josefin Sans;
+    }
+    #nav-couples-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
+    #nav-trans-tab {
+        font-size: 25px;
+        width: 100%;
+        color: black;
+        font-family: Josefin Sans;
+    }
+    #nav-trans-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
+    .tab-content {
+        width: 92%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin: 0;
+    }
+    .contentcontainer {
+        border: 0.5px solid black;
+        border-radius: 5px;
+    }
+    .card-img-top {
+        margin-top: 5px;
+        gap: 5px;
+    }
+    .contentimagecontainer {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 15fr);
+        grid-gap: 10px;
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .imgcont{
+        margin-left: 0;
+        height: 200px;
+        display: grid;
+        border: 0.8px solid rgba(0, 0, 0, 0.368);
+        border-radius: 20px;
+    }
+    /*Rooms*/
+    .whole-roomcontainer{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .room-container {
+        margin-top: 0;
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        border: 1px solid rgba(0, 0, 0, 0.361);
+        border-radius: 15px;
+        background-color: #990000;
+        margin-bottom: 5px;
+    }
+    .headings-roomcontainer {
+        width: 96%;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-direction: column;
+    }
+    .explosion {
+        width: 50%;
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: rgba(255, 255, 255, 0.406);
+    }
+    .reportlink{
+        float: right;
+        margin-top: -65px;
+        font-family: Verdana;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+    }
+    .video-container {
+        width: 98%;
+        height: auto;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 5px;
+    }
+    .room-footer {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+        height: auto;
+        display: flex;
+    }
+}
