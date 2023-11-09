@@ -1,4 +1,4 @@
-@media screen and (max-width:767px) {
+@media screen and (max-width:576px) {
     html {
         width: 100%;
         margin: 0;
@@ -18,8 +18,10 @@
         display: block;
     }
     .mobile-menu {
+        border-radius: 5px;
+        height: 70%;
         margin-top: 11%;
-        background: #990000;
+        background: #990000a7;
         width: 70%;
         margin-left: 30%;
         list-style: none;
@@ -31,6 +33,12 @@
         font-weight: bold;
         font-family: sans-serif;
     }
+    #log-inbtnresponsive {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+
     #navresponsive-broadcaster {
         font-size: 21px;
     }
@@ -52,11 +60,20 @@
         font-weight: bold;
         font-size: 30px;
     }
+    #nav-featured-tab:focus {
+        font-size: 35px;
+        color: black;
+    }
     #nav-women-tab {
         font-size: 25px;
         width: 100%;
         color: black;
         font-family: Josefin Sans;
+    }
+    #nav-women-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
     }
     #nav-men-tab {
         font-size: 25px;
@@ -64,17 +81,32 @@
         color: black;
         font-family: Josefin Sans;
     }
+    #nav-men-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
     #nav-couples-tab {
         font-size: 25px;
         width: 100%;
         color: black;
         font-family: Josefin Sans;
     }
+    #nav-couples-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
+    }
     #nav-trans-tab {
         font-size: 25px;
         width: 100%;
         color: black;
         font-family: Josefin Sans;
+    }
+    #nav-trans-tab:focus {
+        font-size: 30px;
+        color: #990000;
+        font-weight: bold;
     }
     .tab-content {
         width: 92%;
@@ -109,27 +141,241 @@
         border: 0.8px solid rgba(0, 0, 0, 0.368);
         border-radius: 20px;
     }
-    /*Sign in Page*/
-    .signincontainer {
-        width: 100%;
+    /*Broadcast Page*/
+    .signupcontainer {
+        width: 90%;
         height: auto;
         border: 1px solid rgba(0, 0, 0, 0.283);
-        margin-top: 20px;
-        margin-left: 0;
+        margin-top: 1px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+    }
+    .signup-header{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .signup-title{
+        color: #990000;
+        font-family: DM Serif Display;
+        font-size: 27px;
+    }
+    .agelimit {
+        width: 90%;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.637);
+        font-size: 18px;
+    }
+    .forms {
+        width: 90%;
+        height: 6%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5px;
+        display: flex;
+    }
+    .box-form {
+        width: 75%;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 0.5px solid rgba(0, 0, 0, 0.34);
+    }
+    .text-form {
+        width: 30%;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    .check-forms {
+        width: 95%;
+        margin-left: 5%;
         margin-right: 0;
+    }
+    .check-box{
+        width: 30%;
+        height: 30%;
+    }
+    .checkboxtext-form {
+        width: 100%;
+        font-size: 17px;
+        margin-top: -5px;
+        margin-left: 10px;
+        color: rgba(0, 0, 0, 0.719);
+    }
+    .create-btn {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        height: 40px;
+        background: #990000;
+        border: 0.5px solid #990000;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .footer {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .or {
+        margin-left: 20%;
+        margin-right: 25%;
+        color: rgba(0, 0, 0, 0.484);
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .creategmail-btn {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5px;
+        height: 40px;
+        background: white;
+        border: 0.5px solid rgba(0, 0, 0, 0.484);
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.735);
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    /*Sign in Page*/
+    .signincontainer {
+        width: 90%;
+        height: auto;
+        border: 1px solid rgba(0, 0, 0, 0.283);
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
         border-radius: 10px;
         background: url(/images2/pexels-alexander-krivitskiy-1271374.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .sign-in{
-        background: rgba(255, 255, 255, 0.329);
+    .si-logo {
+        margin-top: -20px;
+        margin-left: 40%;
+    }
+    .text-logo {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+    }
+    .sign_in-title {
+        width: 90%;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 5%;
+        margin-top: -15px;
+        font-size: 35px;
+        color: #990000;
+    }
+    .sign_in-text {
+        width: 90%;
+        font-family: sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 100%;
+    }
+    #sign_in-username{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid #990000;
+        background: none;
+        padding: 5px;
+    }
+    #sign_in-password {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid #990000;
+        background: none;
+        padding: 5px;
+        font-size: 20px;
+    }
+    #sign_in-checkbox {
+        margin-left: 5%;
+        width: 20px;
+        height: 20px;
+    }
+    .remember-me {
+        font-family: sans-serif;
+        margin-left: 5px;
+        font-size: 21px;
+        margin-top: -6px;
+    }
+    .log_in-btn{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 5px;
+        background-color: #990000;
+        border: none;
+        height: 50px;
+        color: white;
+        font-size: 25px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .ntpv{
+        margin-left: 5%;
+    }
+    .signupnow-link {
+        text-decoration: none;
+        margin-left: 5%;
+        color: #990000;
+        font-size: 25px;
+    }
+    /*Settings*/
+    .settings-container {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+    }
+    .settings-content {
         width: 100%;
         height: 100%;
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 10px;
-        box-shadow: -1px 3px 13px -2px black;
     }
-}
+    .setting {
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .options {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #990000;
+    }
+    .regions {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .checkbox-options {
+        width: 23px;
+        height: 23px;
+    }
+    .locations {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .chatsettings-link{
+        font-size: 25px;
+        margin-top: 35px;
+        color: #990000;
+    }
+    .close-button {
+        display: none;
+    }
+}   
