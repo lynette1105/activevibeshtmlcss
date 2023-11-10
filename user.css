@@ -553,3 +553,10 @@ nav {
     transition: 0.5s;
 }
 /*Chat Area*/
+.chat-box {
+    width: 90%;
+    margin-left: 5%;
+    margin: 5%;
+    height: 5px;
+    border: 1px solid black;
+}
