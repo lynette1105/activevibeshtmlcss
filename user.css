@@ -267,6 +267,7 @@ nav {
     justify-content: center;
     gap: 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 .room-container {
     margin-top: 20px;
@@ -468,6 +469,11 @@ nav {
     height: auto;
     margin-left: 5%;
 }
+#profile-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
 .bio-tab {
     margin-top: 10%;
     width: 90%;
@@ -546,58 +552,4 @@ nav {
     background: white;
     transition: 0.5s;
 }
-/* Style for the chat box*/
-.chat-area{
-    margin-top: 20px;
-    width: 92%;
-    margin-left: 4%;
-    display: flex;
-    justify-content: center;
-}
-.chat-box {
-    width: 33%;
-    border-radius: 5px;
-}
-.chat-header {
-    border: 2px solid white;
-    background-color: #990000;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.interact-box {
-    width: 33%;
-    border-radius: 5px;
-}
-.interact-content {
-    display: none;
-    padding: 10px;
-}
-
-.interact-header {
-    border: 2px solid white;
-    background-color: #990000;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-}
-.privatechat-box {
-    width: 33%;
-    border-radius: 5px;
-}
-.privatechat-content {
-    display: none;
-    padding: 10px;
-}
-
-.privatechat-header {
-    border: 2px solid white;
-    background-color: #990000;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-}
+/*Chat Area*/

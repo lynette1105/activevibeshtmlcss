@@ -136,9 +136,15 @@
         border-radius: 20px;
     }
     /*Rooms*/
+    .video {
+        overflow: hidden;
+        z-index: 1;
+    }
+    .video-container {
+        overflow: hidden;
+    }
     .whole-roomcontainer{
         width: 100%;
-        height: auto;
         justify-content: center;
         flex-direction: column;
     }
@@ -146,7 +152,7 @@
         margin-top: 0;
         width: 90%;
         margin-left: 5%;
-        height: auto;
+        height: 570px;
         border: 1px solid rgba(0, 0, 0, 0.361);
         border-radius: 15px;
         background-color: #990000;
@@ -187,5 +193,133 @@
         margin-top: 0px;
         height: auto;
         display: flex;
+    }
+    .vibez{
+        width: 100%;
+        height: 60%;
+        margin-top: -30px;
+        border-radius: 5px;
+        background: black;
+    }
+    /*room containers tabs*/
+    #nav-tab {
+        border: none;
+    }
+    #nav-userbio-tab {
+        width: 90%;
+        margin-left: 5%;
+        color: black;
+        font-family: Josefin Sans;
+        font-size: 20px;
+    }
+    #nav-userbio-tab:focus {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #nav-userroomrules-tab {
+        width: 90%;
+        margin-left: 5%;
+        color: black;
+        font-family: Josefin Sans;
+        font-size: 20px;
+    }
+    #nav-userroomrules-tab:focus {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #nav-userfollowing-tab {
+        width: 90%;
+        margin-left: 5%;
+        color: black;
+        font-family: Josefin Sans;
+        font-size: 20px;
+    }
+    #nav-userfollowing-tab:focus {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #nav-userlovensetoy-tab {
+        width: 90%;
+        margin-left: 5%;
+        color: black;
+        font-family: Josefin Sans;
+        font-size: 20px;
+    }
+    #nav-userlovensetoy-tab:focus {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .lovensetoy-container {
+        width: 100%;
+    }
+    .lovensetoy-btn {
+        width: 90%;
+        height: 60px;
+        margin-left: 5%;
+        margin-top: 10%;
+        border-radius: 8px;
+        background: black;
+        border: none;
+        padding: 4px 10px;
+        color:#990000;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    /*Settings*/
+    .settings-container {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+    }
+    .settings-content {
+        width: 100%;
+        height: 100%;
+    }
+    .setting {
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .options {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #990000;
+    }
+    .regions {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .checkbox-options {
+        width: 23px;
+        height: 23px;
+    }
+    .locations {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .chatsettings-link{
+        font-size: 25px;
+        margin-top: 35px;
+        color: #990000;
+    }
+    .close-button {
+        display: none;
     }
 }
