@@ -552,6 +552,43 @@ nav {
     background: white;
     transition: 0.5s;
 }
+/* Chat Tabs*/
+#nav-chat-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-chat-tab:focus {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#nav-interact-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-interact-tab:focus {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#nav-privatechat-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-privatechat-tab:focus {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
 /*Chat Area*/
 .chat-box {
     align-items: flex-end;
@@ -565,5 +602,5 @@ nav {
     -moz-box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
 }
 .chat-box:focus {
-    
+    outline: none;
 }
