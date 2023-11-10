@@ -272,7 +272,7 @@ nav {
 .room-container {
     margin-top: 20px;
     width: 45%;
-    height: 550px;
+    height: 600px;
     border: 1px solid rgba(0, 0, 0, 0.361);
     border-radius: 15px;
     background-color: #990000;
@@ -304,8 +304,8 @@ nav {
 }
 
 .video-container {
-    width: 96%;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin-left: 2%;
     margin-right: 2px;
     border-radius: 5px;
@@ -526,18 +526,23 @@ nav {
     font-family: sans-serif;
 }
 .lovensetoy-title{
-    width: 80%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 40%;
     color: black;
     font-family: sans-serif;
 }
 .lovensetoy-container {
-    width: 50%;
-    height:auto;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
 }
 
 .lovensetoy-btn {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 40%;
     border-radius: 8px;
     background: black;
     border: none;
@@ -551,6 +556,12 @@ nav {
     color: black;
     background: white;
     transition: 0.5s;
+}
+.lovense-toy {
+    width: 30%;
+    height: 350px;
+    background: white;
+    border-radius: 5px;
 }
 /* Chat Tabs*/
 #nav-chat-tab {
@@ -590,19 +601,41 @@ nav {
     font-weight: bold;
 }
 /*Chat Area*/
+.chatbox-container {
+    margin-left: 40px;
+    width: 100%;
+    height: 100%;
+}
+.chat-content {
+    width: 500px;
+    height: 480px;
+}
 .chat-box {
-    align-items: flex-end;
-    width: 400px;
+    width: 500px;
     height: 50px;
     background: white;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
-    position: relative;
-    display: flex;
 }
 .chat-box:focus {
     outline: none;
 }
+
+.slots-btn {
+    background: white;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-family: sans-serif;
+    color: #990000;
+    border-radius: 5px;
+}
+.slots-btn:hover {
+    background: black;
+    transition: 0.5s;
+}
+
