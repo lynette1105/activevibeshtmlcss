@@ -141,7 +141,11 @@
         z-index: 1;
     }
     .video-container {
-        overflow: hidden;
+        width: 98%;
+        height: auto;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 5px;
     }
     .whole-roomcontainer{
         width: 100%;
@@ -178,13 +182,6 @@
         font-family: Verdana;
         font-weight: bolder;
         color: rgb(255, 255, 255);
-    }
-    .video-container {
-        width: 98%;
-        height: auto;
-        margin-left: 1%;
-        margin-right: 1%;
-        border-radius: 5px;
     }
     .room-footer {
         width: 98%;
