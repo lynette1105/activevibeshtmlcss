@@ -618,7 +618,7 @@ nav {
 }
 
 .lovensetoy-btn {
-    margin-top: 5%;
+    margin-top: 0;
     margin-left: 40%;
     border-radius: 8px;
     background: black;
@@ -656,7 +656,6 @@ nav {
 .softvibez {
     margin-left: 5%;
     color: black;
-    margin-top: -10px;
 }
 .price {
     margin-left: 5%;
@@ -674,7 +673,6 @@ nav {
     margin-top: 10px;
     margin-left: 5%;
     color: black;
-    margin-bottom: -3px;
 }
 .feature-field {
     margin-left: 5%;
@@ -704,4 +702,34 @@ nav {
 }
 .addstrength-btn {
     margin-left: 5%;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.addstrength-btn:hover {
+    background: #99000052;
+}
+.duration-label {
+    margin-left: 5%;
+}
+#durationField {
+    width: 50%;
+    margin-top: 3%;
+}
+#durationField:focus {
+    outline: none;
+}
+.save-btn {
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.save-btn:hover {
+    background: black;
+    color: #990000;
+    transition: 0.5s;
 }
