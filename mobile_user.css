@@ -215,7 +215,7 @@
     #nav-userbio-tab:focus {
         background-color: transparent;
         border: none;
-        color: white;
+        color: #990000;
         font-weight: bold;
         font-size: 25px;
     }
@@ -229,7 +229,7 @@
     #nav-userroomrules-tab:focus {
         background-color: transparent;
         border: none;
-        color: white;
+        color: #990000;
         font-weight: bold;
         font-size: 25px;
     }
@@ -243,7 +243,7 @@
     #nav-userfollowing-tab:focus {
         background-color: transparent;
         border: none;
-        color: white;
+        color: #990000;
         font-weight: bold;
         font-size: 25px;
     }
@@ -257,7 +257,7 @@
     #nav-userlovensetoy-tab:focus {
         background-color: transparent;
         border: none;
-        color: white;
+        color: #990000;
         font-weight: bold;
         font-size: 25px;
     }
@@ -322,25 +322,24 @@
     .close-button {
         display: none;
     }
-        /*Chat Area*/
-        .chatbox-container {
-            margin-left: 4%;
-            width: 100%;
-            height: 300px;
-        }
-        .chat-content {
-            width: 100%;
-            height: 450px;
-        }
-        .chat-box {
-            width: 100%;
-            height: 50px;
-            background: white;
-            border: 1px solid white;
-            border-radius: 5px;
-            box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
-        }
+    /*Chat Area*/
+    .chatbox-container {
+        margin-left: 4%;
+        width: 100%;
+        height: 300px;
+    }
+    .chat-box {
+        width: 100%;
+        height: 50px;
+        background: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
+    }
         /*Lovense*/
+    #nav-lovensetoy {
+        height: auto;
+    }
     .lovensetoy-title{
         width: 50%;
         margin-left: 25%;
@@ -350,8 +349,31 @@
     .lovensetoy-container {
         width: 100%;
         height: auto;
-        margin-top: 2%;
-     
-        gap: 1%;
+        display: block;
+    }
+    .lovensetoy-btn {
+        margin-top: 0;
+        margin-left: 5%;
+        border-radius: 8px;
+        background: black;
+        border: none;
+        padding: 2px 2px;
+        color:#990000;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .lovense-toy {
+        width: 100%;
+        height: auto;
+        background: rgba(255, 255, 255, 0.418);
+        border-radius: 5px;
+        box-shadow: -2px 2px 22px -5px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -2px 2px 22px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: -2px 2px 22px -5px rgba(0,0,0,0.75);
+    }
+    .lovensetoy-content {
+        width: 100%;
+        height: 100%;
     }
 }
