@@ -87,7 +87,6 @@ nav {
 }
 .home{
     margin-top: 5px;
-    
 }
 .home-btn {
     color: white;
@@ -98,14 +97,7 @@ nav {
 .home-btn:hover {
     text-decoration: underline;
 }
-.stat {
-    margin: 0;
-    list-style: none;
-    padding: 0.5px;
-    font-family: Verdana;
-    color: white;
-    font-size: 12px;
-}
+
 .usernameicon {
     padding: 1px;
 }
