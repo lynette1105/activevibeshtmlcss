@@ -101,21 +101,7 @@ nav {
 .username {
     display: flex;
 }
-.signup-link {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    border: 1px solid white;
-    padding: 0.5px 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 10px;
-}
-.signup-link:hover {
-    color: #990000;
-    border: 1px solid #990000;
-    background: white;
-}
+
 .title {
     color: white;
     font-family: Lumanosimo;

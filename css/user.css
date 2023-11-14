@@ -97,13 +97,15 @@ nav {
 .home-btn:hover {
     text-decoration: underline;
 }
-
+.username {
+    margin-top: 3.5px;
+}
 .log-outbtn {
     text-decoration: none;
     color: white;
     font-size: 20px;
     border: 1px solid white;
-    padding: 2px 10px;
+    padding: 0.5px 10px;
     border-radius: 5px;
     font-weight: bold;
     margin-left: 90px;
