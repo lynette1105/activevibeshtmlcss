@@ -1,0 +1,175 @@
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    html {
+        width: 100%;
+        margin: 0;
+    }
+    body {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.683);
+        margin: 0;
+    }
+    .headerphoto-container {
+        background: white;
+    }
+    .nav-container {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+    .mobile-menu {
+        border-radius: 5px;
+        height: 70%;
+        margin-top: 13%;
+        background: black;
+        width: 30%;
+        margin-left: 70%;
+        list-style: none;
+        gap: 20px;
+    }
+    .navresponsive-link {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #log-inbtnresponsive {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .responsivelink {
+        margin-top: 30px;
+    }
+    /*Tabs*/
+    .tab {
+        width: 100%;
+        height: auto;
+    }
+    #myTab {
+        width: 100%;
+    }
+    .contentimagecontainer {
+        width: 415%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    /*Sign in Page*/
+    .signincontainer {
+        width: 50%;
+        height: auto;
+        border: 1px solid rgba(0, 0, 0, 0.283);
+        margin-top: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 10px;
+        background: url(/images2/pexels-alexander-krivitskiy-1271374.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .signup-header{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .signup-title{
+        color: #990000;
+        font-family: DM Serif Display;
+        font-size: 27px;
+    }
+    .agelimit {
+        width: 90%;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.637);
+        font-size: 15px;
+    }
+    .forms {
+        width: 90%;
+        height: 6%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5px;
+        display: flex;
+    }
+    .box-form {
+        width: 75%;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 0.5px solid rgba(0, 0, 0, 0.34);
+    }
+    .text-form {
+        width: 30%;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .check-forms {
+        width: 95%;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .check-box{
+        width: 30%;
+        height: 30%;
+    }
+    .checkboxtext-form {
+        width: 100%;
+        font-size: 14px;
+        margin-top: -3px;
+        margin-left: 10px;
+        color: rgba(0, 0, 0, 0.719);
+    }
+    .create-btn {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        height: 40px;
+        background: #990000;
+        border: 0.5px solid #990000;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .or {
+        margin-left: 20%;
+        margin-right: 25%;
+        color: rgba(0, 0, 0, 0.484);
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .footer {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .or {
+        margin-left: 20%;
+        margin-right: 25%;
+        color: rgba(0, 0, 0, 0.484);
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .creategmail-btn {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5px;
+        height: 40px;
+        background: white;
+        border: 0.5px solid rgba(0, 0, 0, 0.484);
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.735);
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+}

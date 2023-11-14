@@ -570,6 +570,10 @@ nav {
     font-weight: bold;
 }
 /*Chat Area*/
+.conversation-box {
+    width: 450%;
+    height: 400px;
+}
 .chatbox-container {
     margin-left: 15%;
     width: 100%;
