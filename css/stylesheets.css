@@ -539,17 +539,6 @@ nav {
     font-family: sans-serif;
 }
 
-.chatsettings-btn {
-    text-decoration: none;
-}
-
-.chatsettings-link{
-    margin-top: 35px;
-    color: #990000;
-}
-.chatsettings-link:hover {
-    text-decoration: underline;
-}
 .close-button {
     background-color: white;
     color: #990000;
