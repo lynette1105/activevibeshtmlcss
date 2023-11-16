@@ -204,91 +204,175 @@
         border-radius: 20px;
     }
      /*Rooms*/
-     .whole-roomcontainer{
-        margin-top: 5%;
-        width: 100%;
+     .rooms {
+        margin-top: 5px;
+    }
+    .rooms-btn {
+        color: white;
+        text-decoration: none;
+        font-family: Verdana;
+        margin-left: 15px;
+    }
+    .rooms-btn:hover {
+        text-decoration: underline;
+    }
+    .whole-roomcontainer{
         justify-content: center;
-        flex-direction: row;
+        gap: 2%;
+        display: flex;
+        flex-wrap: wrap;
     }
     .room-container {
-        margin-top: 0;
-        width: 90%;
-        margin-left: 5%;
-        height: 650px;
+        margin-top: 20px;
+        width: 45%;
+        height: 600px;
         border: 1px solid rgba(0, 0, 0, 0.361);
         border-radius: 15px;
         background-color: #990000;
-        margin-bottom: 5px;
     }
-    .video {
-        overflow: hidden;
-        z-index: 1;
-        height: auto;
-        margin-top: -20px;
-    }
-    .video-container {
-        width: 98%;
-        height: auto;
-        margin-left: 1%;
-        margin-right: 1%;
-        border-radius: 5px;
-    }
+    
     .headings-roomcontainer {
         width: 96%;
         height: 40px;
         margin-top: 10px;
         margin-left: 2%;
         margin-right: 2%;
-        flex-direction: column;
     }
+    
     .explosion {
-        margin-top: -10px;
-        width: 50%;
         font-family: sans-serif;
         font-weight: bolder;
         color: rgba(255, 255, 255, 0.406);
-        font-size: 12px;
     }
+    
     .reportlink{
         float: right;
-        margin-top: -35px;
+        margin-top: -40px;
         font-family: Verdana;
         font-weight: bolder;
         color: rgb(255, 255, 255);
-        font-size: 12px;
     }
-    .mode {
-        font-size: 15px;
+    .reportlink:hover {
+        color: rgba(255, 255, 255, 0.587);
     }
-    .room-footer {
-        width: 98%;
-        margin-left: 1%;
-        margin-right: 1%;
-        margin-top: -15px;
+    
+    .video-container {
+        width: auto;
         height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 5px;
+    }
+    
+    .video {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .mode{
+        margin-left: 2%;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .room-footer {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0px;
+        height: 150px;
         display: flex;
     }
-    .fav-patterns {
-        font-size: 12px;
-        margin-top: -30px;
+    .buysend-vibez {
+        width: 30%;
+        height: 70%;
     }
-    .buy-btn {
-        width: 50%;
-        height: 100%;
+    .numberofvibez {
+        width: 70%;
     }
-    .send-btn {
-        width: 50%;
-        height: 100%;
+    .fav {
+        width: 100%;
+        height: 30%;
+        margin-top: -50px;
+        margin-left: 0;
+        margin-right: 0;
+        color: white;
+    }
+    
+    .fav-patterns{
+        font-size: 15px;
+        font-family: Verdana;
     }
     .best {
-        font-size: 13px;
+        font-family: sans-serif;
+        margin-top: -20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .buy-btn {
+        background: black;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 49px;
+        width: 80%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .buy-btn:hover{
+        width: 100%;
+        height: 55px;
+        margin-left: 0;
+        transition: 0.5s;
+        border: 1px solid #990000;
+    }
+    
+    .send-btn {
+        background: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 49px;
+        width: 80%;
+        color: #990000;
+        border: none;
+        border-radius: 8px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .send-btn:hover {
+        width: 100%;
+        height: 55px;
+        margin-left: 0;
+        transition: 0.5s;
+        border: 1px solid #990000;
     }
     .vibez{
         width: 100%;
-        height: 43%;
-        margin-top: -45px;
+        height: 70%;
         border-radius: 5px;
         background: black;
+    }
+    
+    .vibez-points{
+        color: #990000;
+        width: 100%;
+        height: 16.66%;
+    }
+    
+    .vibez-name {
+        margin-left: 1%;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .points {
+        margin-left: 1%;
+        font-family: Arial;
     }
     /*Settings*/
     .settings-btn {

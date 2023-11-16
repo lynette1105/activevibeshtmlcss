@@ -178,7 +178,7 @@
     }
     .reportlink{
         float: right;
-        margin-top: -65px;
+        margin-top: -40px;
         font-family: Verdana;
         font-weight: bolder;
         color: rgb(255, 255, 255);
@@ -194,7 +194,7 @@
     .vibez{
         width: 100%;
         height: 60%;
-        margin-top: -30px;
+        margin-top: -15px;
         border-radius: 5px;
         background: black;
     }
@@ -323,6 +323,7 @@
     .lovense-toy {
         width: 100%;
         height: auto;
+        margin-bottom: 10px;
         background: rgba(255, 255, 255, 0.418);
         border-radius: 5px;
         box-shadow: -2px 2px 22px -5px rgba(0,0,0,0.75);

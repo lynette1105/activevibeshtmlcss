@@ -99,7 +99,17 @@ nav {
     padding: 1px;
 }
 .username {
-    display: flex;
+    margin-top: 5px;
+}
+.signup-link{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .title {

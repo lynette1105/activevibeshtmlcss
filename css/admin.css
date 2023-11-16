@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: black;
+}
+.header-container {
+    width: 100%;
+}
+.header-logo {
+    background: black;
+    height: 30px;
+}
+nav {
+    padding: 10px;
+    text-align: left;
+    display: grid;
+    width: 10%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+/*Dashboard*/
+.dashboard-link {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px 1px;
+    font-size: 15px;
+}
+.dashboard-link:focus {
+    background-color: #990000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
