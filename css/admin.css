@@ -50,3 +50,23 @@ html {
     height: 50px;
     border: 1px solid rgba(0, 0, 0, 0.411);
 }
+.amount-containers p {
+    text-align: center;
+    font-family: sans-serif;
+}
+.setvibez-btn {
+    display: flex;
+    gap: 10%;
+    text-align: center;
+}
+.setvibez-btn button {
+    background: black;
+    border: 0.5px solid white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.setvibez-btn button:hover {
+    background: #990000;
+    transition: 0.5s;
+}
