@@ -5,19 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="/css/admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <div class="header-container">
         <img class="header-logo" src="/logo/Private_Vibez_Logo_WHT.png" alt="Error">
     </div>
-    <nav>
-        <a class="dashboard-link" href="#">Dashboard</a>
-        <a class="dashboard-link" href="#">Messages</a>
-        <a class="dashboard-link" href="#">Staff</a>
-        <a class="dashboard-link" href="#">Memos</a>
-        <a class="dashboard-link" href="#">Promotions</a>
-        <a class="dashboard-link" href="#">Interactives</a>
-        <a class="dashboard-link" href="#">Subscriptions</a>
-    </nav>
+    <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Dashboard</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Messages</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Staff</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Memos</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Promotions</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Interactives</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Subscriptions</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Dashboard</h4>
+            <div class="dashboard-content">
+                <div class="dashboard-containers">
+                    <p>Slot Machine Vibez Earning <br>3</p>
+                </div>
+                <div class="dashboard-containers">
+                    <p>Lottery Vibez Earning <br>0</p>
+                </div>
+                <div class="dashboard-containers">
+                    <p>Dice Vibez Earning <br>0</p>
+                </div>
+                <div class="dashboard-containers">
+                    <p>Total Broadcaster Revenue Vibez <br>186</p>
+                </div>
+            </div><br>
+            <div class="dashboard-amount">
+                <div class="amount-containers">
+
+                </div>
+                <div class="amount-containers">
+
+                </div>
+                <div class="amount-containers">
+
+                </div>
+                <div class="amount-containers">
+
+                </div>
+            </div>
+            <h4 id="list-item-2">Item 2</h4>
+            <p>...</p>
+            <h4 id="list-item-3">Item 3</h4>
+            <p>...</p>
+            <h4 id="list-item-4">Item 4</h4>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
