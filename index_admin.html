@@ -15,6 +15,7 @@
     </div>
     <nav>
         <ul>
+            <h6 class="user-admin">Jamie</h6>
             <li onclick="showSection('dashboard')">Dashboard</li>
             <li onclick="showSection('messages')">Messages</li>
             <li onclick="showSection('staff')">Staff</li>
@@ -22,6 +23,13 @@
             <li onclick="showSection('promotions')">Promotions</li>
             <li onclick="showSection('interactives')">Interactives</li>
             <li onclick="showSection('subscriptions')">Subscriptions</li>
+            <hr>
+            <h6 class="li-header">PEOPLE</h6>
+            <li onclick="showSection('idcheck')">ID Check</li>
+            <li onclick="showSection('badacters')">Bad Acters</li>
+            <hr>
+            <h6 class="li-header">DEV</h6>
+            <li onclick="showSection('todolist')">To Do List</li>
         </ul>
     </nav>
     <main>
@@ -270,7 +278,28 @@
 
             </table>
         </section>
-
+        <section id="idcheck" class="show-idcheck">
+            <h2>ID Check</h2>
+            <button>Add Decline Message</button>
+            <div class="idcheck-tblcontainer">
+                <div class="tbl-title">Pending Broadcasters</div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Birthdate</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section>
+        <section id="badacters" class="show-badacters">
+            <h2>Bad Acters</h2>
+        </section>
+        <section id="todolist" class="show-todolist">
+            <h2>To Do List</h2>
+        </section>
       </main>
     
       

@@ -5,7 +5,7 @@ const lastSelectedSection = localStorage.getItem('lastSelectedSection');
   }
 function showSection(sectionId) {
     document.querySelectorAll('section').forEach(function(section) {
-    section.classList.remove('show-dashboard', 'show-messages', 'show-staff', 'show-memos', 'show-promotions', 'show-interactives', 'show-subscriptions',);
+    section.classList.remove('show-dashboard', 'show-messages', 'show-staff', 'show-memos', 'show-promotions', 'show-interactives', 'show-subscriptions', 'show-idcheck', 'show-badacters', 'show-todolist');
         });
 
     document.getElementById(sectionId).classList.add('show-' + sectionId);

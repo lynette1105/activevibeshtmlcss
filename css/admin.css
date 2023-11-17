@@ -63,9 +63,26 @@ body {
   #memos.show-memos,
   #promotions.show-promotions,
   #interactives.show-interactives,
-  #subscriptions.show-subscriptions
-  {
+  #subscriptions.show-subscriptions,
+  #idcheck.show-idcheck,
+  #badacters.show-badacters,
+  #todolist.show-todolist{
     display: block;
+  }
+
+  .li-header{
+    padding: 4px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.267);
+    font-family: Arial;
+    font-size: 15px;
+  }
+  .user-admin {
+    padding: 4px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.267);
+    font-family: Arial;
+    font-size: 15px;
   }
   /*Dashboard Section*/
   .dashboard-content {
@@ -258,4 +275,31 @@ th {
 .subscriptiondelete-btn:hover {
     background: #99000079;
     transition: 0.5s;
+}
+
+/*ID Check Section*/
+.show-idcheck {
+    margin-left: 15%;
+}
+.show-idcheck button {
+    border: #990000;
+    background: #990000;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.show-idcheck button:hover {
+    background: #99000050;
+}
+.idcheck-tblcontainer {
+    margin-top: 20px;
+    width: 80%;
+    height: 250px;
+    border: 0.5px solid rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+}
+.tbl-title {
+    padding-left: 10%;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.295);
 }
