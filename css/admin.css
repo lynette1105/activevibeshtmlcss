@@ -1,5 +1,5 @@
 body {
-    width: 99%;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -20,14 +20,54 @@ html {
     height: 30px;
 }
 /*Dashboard*/
-.col-4 {
-    padding-right: 0;
-    margin-left: 0;
-}
-.col-8 {
-    margin-left: -1%;
-}
-.dashboard-content {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navigation Bar */
+  nav {
+    margin-top: 30px;
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    background-color: #333;
+    color: #fff;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    padding: 15px;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+  }
+
+  /* Content Section */
+  main {
+    margin-left: 25%; /* Adjusted to the width of the nav bar */
+    padding: 20px;
+  }
+
+  /* Initially hide all sections */
+  section {
+    display: none;
+  }
+
+  /* Show only the selected section */
+  #dashboard.show-dashboard,
+  #messages.show-messages,
+  #staff.show-staff,
+  #memos.show-memos,
+  #promotions.show-promotions {
+    display: block;
+  }
+  /*Dashboard Section*/
+  .dashboard-content {
     margin-top: 40px;
     display: flex;
     gap: 3%;
@@ -69,4 +109,20 @@ html {
 .setvibez-btn button:hover {
     background: #990000;
     transition: 0.5s;
+}
+/*Message Section*/
+
+/*Staff Section*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
 }
