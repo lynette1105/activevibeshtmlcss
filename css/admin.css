@@ -49,21 +49,21 @@ body {
 
   /* Content Section */
   main {
-    margin-left: 25%; /* Adjusted to the width of the nav bar */
+    margin-left: 25%;
     padding: 20px;
   }
 
-  /* Initially hide all sections */
   section {
     display: none;
   }
-
-  /* Show only the selected section */
   #dashboard.show-dashboard,
   #messages.show-messages,
   #staff.show-staff,
   #memos.show-memos,
-  #promotions.show-promotions {
+  #promotions.show-promotions,
+  #interactives.show-interactives,
+  #subscriptions.show-subscriptions
+  {
     display: block;
   }
   /*Dashboard Section*/
@@ -111,6 +111,14 @@ body {
     transition: 0.5s;
 }
 /*Message Section*/
+.pop-overmsg {
+    text-decoration: none;
+    color: white;
+    background: #990000;
+    padding: 4px 8px;
+    font-size: 25px;
+    border-radius: 5px;
+}
 
 /*Staff Section*/
 table {
@@ -120,9 +128,107 @@ table {
 }
 th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 0px;
     text-align: left;
 }
 th {
     background-color: #f2f2f2;
+}
+.addstaff-btn {
+    background: #990000;
+    width: 100%;
+    padding: 0 0;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.addstaff-btn:hover {
+    background: #99000096;
+    color: white;
+    transition: 0.5s;
+}
+.editpermission-btn {
+    background: #990000;
+    width: 100%;
+    padding: 0 0;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    border: 0.5px solid white;
+}
+.editpermission-btn:hover {
+    background: #99000096;
+    color: white;
+    transition: 0.5s;
+}
+.editsatff-btn {
+    background: #990000;
+    width: 100%;
+    padding: 0 0;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    border: 0.5px solid white;
+}
+.editsatff-btn:hover {
+    background: #99000096;
+    color: white;
+    transition: 0.5s;
+}
+.delstaff-btn {
+    background: #990000;
+    width: 100%;
+    padding: 0 0;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    border: 0.5px solid white;
+}
+.delstaff-btn:hover {
+    background: #99000096;
+    color: white;
+    transition: 0.5s;
+}
+/*Promotions Sections*/
+.promotion-header {
+    width: 100%;
+    text-align: center;
+}
+.addpromotion-btn {
+    background: #990000;
+    padding: 0 0;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    border: 0.5px solid white;
+    padding: 2px 5px;
+}
+.addpromotion-btn:hover {
+    background: #99000096;
+    color: white;
+    transition: 0.5s;
+}
+.promotion-tbl th {
+    font-weight: 450;
+    background: none;
+    padding: 0px 15px;
+}
+/*Interactive Section*/
+.show-interactives {
+    margin-left: 15%;
+}
+.interactives-tbl th{
+    background: none;
+}
+.interactives-tbl button {
+    background: #990000;
+    border: #990000;
+    color: white;
+    padding: 4px 4px;
+    border-radius: 5px;
+    line-height: 17px;
+}
+.interactives-tbl button:hover {
+    background: #9900008a;
+    transition: 0.5s;
 }
