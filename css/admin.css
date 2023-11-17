@@ -219,6 +219,7 @@ th {
 }
 .interactives-tbl th{
     background: none;
+    font-weight: 500;
 }
 .interactives-tbl button {
     background: #990000;
@@ -231,4 +232,7 @@ th {
 .interactives-tbl button:hover {
     background: #9900008a;
     transition: 0.5s;
+}
+.total tr {
+    font-weight: bold;
 }
