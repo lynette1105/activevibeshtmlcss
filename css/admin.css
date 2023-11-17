@@ -30,8 +30,8 @@ body {
     margin-top: 30px;
     position: fixed;
     height: 100%;
-    width: 25%;
-    background-color: #333;
+    width: 15%;
+    background-color: black;
     color: #fff;
   }
 
@@ -42,14 +42,15 @@ body {
   }
 
   nav li {
-    padding: 15px;
-    border-bottom: 1px solid #555;
+    padding: 4px;
+    border: 0.5px;
     cursor: pointer;
+    width: 90%;
   }
-
+ 
   /* Content Section */
   main {
-    margin-left: 25%;
+    margin-left: 15%;
     padding: 20px;
   }
 
@@ -235,4 +236,26 @@ th {
 }
 .total tr {
     font-weight: bold;
+}
+/*Subscription Section*/
+.subscriptionupdate-btn {
+    background: #0081CF;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.subscriptionupdate-btn:hover {
+    background: #0080cf70;
+    transition: 0.5s;
+}
+
+.subscriptiondelete-btn {
+    background: #990000;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.subscriptiondelete-btn:hover {
+    background: #99000079;
+    transition: 0.5s;
 }
