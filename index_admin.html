@@ -12,6 +12,17 @@
 <body>
     <div class="header-container">
         <img class="header-logo" src="/logo/Private_Vibez_Logo_WHT.png" alt="Error">
+        <div class="logout-icon">
+            <img class="user-icon" src="/logo/icons8-user-30.png" alt="">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" id="dropdwn-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/index.html">Log out</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
     <nav>
         <ul>
@@ -32,6 +43,32 @@
             <li onclick="showSection('todolist')">To Do List</li>
         </ul>
     </nav>
+    <!--Burger Menu mobile responsive-->
+    <div id="hamburger-icon" onclick="toggleNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <h6 class="user-admin">Jamie</h6>
+            <li onclick="showSection('dashboard')">Dashboard</li>
+            <li onclick="showSection('messages')">Messages</li>
+            <li onclick="showSection('staff')">Staff</li>
+            <li onclick="showSection('memos')">Memos</li>
+            <li onclick="showSection('promotions')">Promotions</li>
+            <li onclick="showSection('interactives')">Interactives</li>
+            <li onclick="showSection('subscriptions')">Subscriptions</li>
+            <hr>
+            <h6 class="li-header">PEOPLE</h6>
+            <li onclick="showSection('idcheck')">ID Check</li>
+            <li onclick="showSection('badacters')">Bad Acters</li>
+            <hr>
+            <h6 class="li-header">DEV</h6>
+            <li onclick="showSection('todolist')">To Do List</li>
+        </ul>
+    </nav>
+     <!--End of Burger Menu mobile responsive-->
     <main>
         <section id="dashboard" class="show-dashboard">
             <h2>Dashboard</h2>
@@ -297,13 +334,13 @@
         <section id="badacters" class="show-badacters">
             <h2>Bad Acters</h2>
             <div class="badacters-tblcontainer">
-                <div class="tbl-title">Pending Broadcasters</div>
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Birthdate</th>
+                            <th scope="col">Reporty</th>
+                            <th scope="col">Reported</th>
+                            <th scope="col">Message</th>
+                            <th scope="col">Send warning</th>
                         </tr>
                     </thead>
                 </table>

@@ -19,6 +19,17 @@ html {
     background: black;
     height: 30px;
 }
+.logout-icon{
+    margin-right: 1%;
+    height: 30px;
+    float: right;
+    display: flex;
+}
+#dropdwn-btn {
+    background: none;
+    border: none;
+}
+   
 /*Dashboard*/
 body {
     margin: 0;
@@ -86,9 +97,19 @@ main {
   .user-admin {
     padding: 4px;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.267);
+    color: rgba(255, 255, 255, 0.463);
     font-family: Arial;
     font-size: 15px;
+  }
+
+  /*Burger Menu*/
+  #hamburger-icon {
+    /*display: none;*/
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    top: 15px;
+    left: 15px;
   }
   /*Dashboard Section*/
 .show-dashboard{
@@ -336,4 +357,7 @@ th {
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.295);
 }
 
-/
+/* Bad Acters Section*/
+.show-badacters {
+    margin-left: 5%;
+}
