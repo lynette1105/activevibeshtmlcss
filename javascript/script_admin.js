@@ -16,3 +16,8 @@ function showSection(sectionId) {
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();   
       });
+
+      //hamburger menu//
+      function toggleDashboardMenu(menu){
+        menu.classList.toggle('open');
+    }

@@ -11,6 +11,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+footer {
+    height: 100px;
+}
 .header-container {
     width: 100%;
     background: black;
@@ -63,7 +67,7 @@ body {
     background: #990000;
     border-radius: 7px;
 }
-/*Icons*/
+
 
   /* Content Section */
 main {
@@ -102,15 +106,51 @@ main {
     font-size: 15px;
   }
 
-  /*Burger Menu*/
-  #hamburger-icon {
-    /*display: none;*/
+/*Burger Menu*/
+#hamburger-icon {
+    display: none;
+    margin: auto 0;
     cursor: pointer;
-    position: fixed;
-    color: white;
-    top: 15px;
-    left: 15px;
-  }
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 1%;
+}
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+.open .dashboard-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dashboard-menu {
+    display: none;
+    position: absolute;
+    margin-top: 0.5px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
   /*Dashboard Section*/
 .show-dashboard{
     margin-left: 5%;
@@ -124,6 +164,10 @@ main {
     width: 20%;
     height: 70px;
     border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
 }
 .dashboard-containers p {
     text-align: center;
@@ -137,6 +181,10 @@ main {
     width: 20%;
     height: 50px;
     border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
 }
 .amount-containers p {
     text-align: center;
@@ -176,19 +224,16 @@ main {
 .show-staff {
     margin-left: 5%;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+table tr {
+    padding: .45em;
 }
-th, td {
-    border: 1px solid #ddd;
-    padding: 0px;
-    text-align: left;
+thead tr {
+    background-color: rgba(0, 0, 0, 0.178);
 }
-th {
-    background-color: #f2f2f2;
+tbody tr:nth-child(even) {
+    background-color: white;
 }
+
 .addstaff-btn {
     background: #990000;
     width: 100%;
