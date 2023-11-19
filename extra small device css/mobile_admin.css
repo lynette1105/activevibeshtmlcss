@@ -1,3 +1,111 @@
 @media screen and (max-width:576px) {
-    
+    #hamburger-icon {
+        display: block;
+    }
+    nav, nav ul {
+        display: none;
+    }
+    .dashboard-menu {
+        background: black;
+        list-style: none;
+    }
+    .dashboard-menu li {
+        list-style-type: none;
+        color: white;
+        padding: 4px;
+        border: 0.5px;
+        cursor: pointer;
+        width: 90%;
+        text-align: left;
+    }
+    .dashboard-menu li:hover {
+        background: #990000;
+        border-radius: 7px;
+    }
+    section {
+        display: none;
+      }
+      #dashboard.show-dashboard,
+      #messages.show-messages,
+      #staff.show-staff,
+      #memos.show-memos,
+      #promotions.show-promotions,
+      #interactives.show-interactives,
+      #subscriptions.show-subscriptions,
+      #idcheck.show-idcheck,
+      #badacters.show-badacters,
+      #todolist.show-todolist{
+        display: block;
+      }
+      main {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 20px;
+      }
+      /*Dashboard Section*/
+      .dashboard-content {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .dashboard-containers {
+        margin-left:5%;
+        width: 40%;
+        height: 70px;
+    }
+    .dashboard-containers p {
+        line-height: 15px;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+    .dashboard-amount {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .amount-containers {
+        margin-left:5%;
+        width: 40%;
+        height: 50px;
+    }
+    .amount-containers p {
+        margin-top: 4%;
+        line-height: 15px;
+        font-size: 13px;
+    }
+    .setvibez-btn {
+        display: flex;
+        gap: 5%;
+        text-align: center;
+    }
+    .setvibez-btn button {
+        background: black;
+        border: 0.5px solid white;
+        padding: 3px 7px;
+        border-radius: 10px;
+        color: white;
+    }
+    /*Message Section*/
+    .pop-overmsg {
+        text-decoration: none;
+        color: white;
+        background: #990000;
+        padding: 2px 4px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    /*Staff Section*/
+    th, td {
+        display: block;
+        width: 100%;
+    }
+    th, td {
+        text-align: left;
+    }
+   th, td::before {
+    content: attr(data-label);
+    font-weight: bold;
+   }
 }
