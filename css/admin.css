@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    display: flex;
+    height: 100%;
     flex-direction: column;
     min-height: 100vh;
     font-family: sans-serif;
@@ -33,7 +33,7 @@ footer {
     background: none;
     border: none;
 }
-   
+ 
 /*Dashboard*/
 body {
     margin: 0;
@@ -42,9 +42,7 @@ body {
 
   /* Navigation Bar */
   nav {
-    margin-top: 30px;
-    position: fixed;
-    height: 100%;
+    height: auto;
     width: 15%;
     background-color: black;
     color: #fff;
@@ -224,20 +222,29 @@ main {
 .show-staff {
     margin-left: 5%;
 }
-table tr {
-    padding: .45em;
+.showstaff-tbl .showstaff-tr {
+    padding: .40em;
 }
-thead tr {
+.showstaff-thead .showstaff-tr {
     background-color: rgba(0, 0, 0, 0.178);
 }
-tbody tr:nth-child(even) {
+.showstaff-tbdy .showstaff-tr:nth-child(even) {
     background-color: white;
 }
-
+.tbl-th,
+.tbl-td{
+    font-size: 1em;
+    position: 1em;
+    text-align: center;
+}
+.tbl-th {
+   color: white;
+   font-size: 1.15em;
+}
 .addstaff-btn {
     background: #990000;
     width: 100%;
-    padding: 0 0;
+    padding: 2px  6px;
     border: none;
     color: white;
     border-radius: 3px;
@@ -254,7 +261,7 @@ tbody tr:nth-child(even) {
     color: white;
     border-radius: 5px;
     border: 0.5px solid white;
-    padding: 0px 0px;
+    padding: 2px 6px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -268,7 +275,7 @@ tbody tr:nth-child(even) {
 .editsatff-btn {
     background: #990000;
     width: 100%;
-    padding: 0 0;
+    padding: 2px 6px;
     border: none;
     color: white;
     border-radius: 3px;
@@ -282,7 +289,7 @@ tbody tr:nth-child(even) {
 .delstaff-btn {
     background: #990000;
     width: 100%;
-    padding: 0 0;
+    padding: 2px 6px;
     border: none;
     color: white;
     border-radius: 3px;
@@ -299,12 +306,21 @@ tbody tr:nth-child(even) {
     margin-left: 5%;
 }
 /*Promotions Sections*/
+.promotion-tblmobile {
+    display: none;
+}
 .show-promotions {
     margin-left: 5%;
 }
 .promotion-header {
     width: 100%;
     text-align: center;
+}
+.promotion-tbl {
+    margin-top: 2%;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 .addpromotion-btn {
     background: #990000;
@@ -321,10 +337,10 @@ tbody tr:nth-child(even) {
     transition: 0.5s;
     border-radius: 5px;
 }
-.promotion-tbl th {
-    font-weight: 450;
-    background: none;
-    padding: 0px 15px;
+.promotion-tbl th, .promotion-tbl td {
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    padding: 8px;
+    text-align: left;
 }
 /*Interactive Section*/
 .show-interactives {

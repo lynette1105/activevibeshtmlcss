@@ -1,0 +1,137 @@
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+        /* Navigation Bar */
+    nav {
+        margin-top: auto;
+        position: fixed;
+        height: 100%;
+        width: 15%;
+        background-color: black;
+        color: #fff;
+    }
+    /*Dashboard Section*/
+    .show-dashboard{
+        width: 100%;
+        margin-left: 0;
+    }
+    .dashboard-containers p {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        margin-top: 3%;
+    }
+    .amount-containers p {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 5%;
+    }
+    /*Message Section*/
+    .show-messages {
+       width: 100%;
+       margin-left: 0;
+    }
+    .pop-overmsg {
+        text-decoration: none;
+        color: white;
+        background: #990000;
+        padding: 4px 8px;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+    /*Staff Section*/
+    .show-staff {
+        width: 100%;
+        margin-left: 0;
+    }
+    .showstaff-tbl .showstaff-tr {
+        padding: .10em;
+    }
+    .tbl-th,
+    .tbl-td {
+        font-size: 0.6em;
+        position: 0.6;
+        text-align: center;
+    }
+    .tbl-th {
+        color: white;
+        font-size: 1em;
+        font-weight: 450;
+    }
+    .addstaff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 3px  6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+    }
+    .editpermission-btn {
+        background: #990000;
+        width: 100%;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        border: 0.5px solid white;
+        padding: 3px 6px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .editsatff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 3px 6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        border: 0.5px solid white;
+    }
+    .delstaff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 3px 6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        border: 0.5px solid white;
+    }
+    /*Memos Section*/
+    .show-memos {
+        width: 100%;
+        margin-left: 0;
+    }
+    /*Promotions Sections*/
+    .show-promotions {
+        width: 100%;
+        margin-left: 0;
+    }
+    /*Interactive Section*/
+    .show-interactives {
+        width: 100%;
+        margin-left: 0;
+    }
+    /*Subscription Section*/
+    .show-subscriptions {
+        width: 100%;
+        margin-left: 0;
+    }
+    /*Id Check Section*/
+    .show-idcheck {
+        width: 100%;
+        margin-left: 0;
+    }
+    .idcheck-tblcontainer {
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* Bad Acters Section*/
+    .show-badacters {
+        margin-left: 0;
+    }
+    /*To do list section*/
+    .show-todolist {
+        margin-left: 0;
+    }
+}

@@ -6,6 +6,9 @@
     <title>Admin</title>
     <link rel="stylesheet" href="/css/admin.css">
     <link rel="stylesheet" href="/extra small device css/mobile_admin.css">
+    <link rel="stylesheet" href="/small device css/tablet_admin.css">
+    <link rel="stylesheet" href="/medium device css/laptop_admin.css">
+    <link rel="stylesheet" href="/large device css/desktop_admin.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -141,33 +144,33 @@
         </section>
 
         <section id="staff" class="show-staff">
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Status</th>
-                        <th>Log in time</th>
-                        <th>Log out time</th>
-                        <th>Task</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th><Button class="addstaff-btn">Add Staff</Button></th>
+            <table class="showstaff-tbl">
+                <thead class="showstaff-thead">
+                    <tr class="showstaff-tr">
+                        <th class="tbl-th">ID</th>
+                        <th class="tbl-th">Name</th>
+                        <th class="tbl-th">Status</th>
+                        <th class="tbl-th">Log in time</th>
+                        <th class="tbl-th">Log out time</th>
+                        <th class="tbl-th">Task</th>
+                        <th class="tbl-th"></th>
+                        <th class="tbl-th"></th>
+                        <th class="tbl-th"></th>
+                        <th class="tbl-th"><Button class="addstaff-btn">Add Staff</Button></th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td data-title="ID">#####</td>
-                        <td data-title="Name">Jamie</td>
-                        <td data-title="Status">Online</td>
-                        <td data-title="Log in Time">November 11, 2023, 3:23pm</td>
-                        <td data-title="Log out Time"></td>
-                        <td data-title="Task"></td>
-                        <td data-title=""><button class="editpermission-btn">Edit permission</button></td>
-                        <td data-title=""><button class="editsatff-btn">Edit Staff</button></td>
-                        <td data-title=""><button class="delstaff-btn">Delete Staff</button></td>
-                        <td data-title=""></td>
+                <tbody class="showstaff-tbdy">
+                    <tr class="showstaff-tbdytr">
+                        <td class="tbl-td" data-title="ID">#####</td>
+                        <td class="tbl-td" data-title="Name">Jamie</td>
+                        <td class="tbl-td" data-title="Status">Online</td>
+                        <td class="tbl-td" data-title="Log in Time">November 11, 2023, 3:23pm</td>
+                        <td class="tbl-td" data-title="Log out Time"></td>
+                        <td class="tbl-td" data-title="Task">No task</td>
+                        <td class="tbl-td" data-title=""><button class="editpermission-btn">Edit permission</button></td>
+                        <td class="tbl-td" data-title=""><button class="editsatff-btn">Edit Staff</button></td>
+                        <td class="tbl-td"data-title=""><button class="delstaff-btn">Delete Staff</button></td>
+                        <td class="tbl-td" data-title=""></td>
                     </tr>
                 </tbody>
             </table>
@@ -190,6 +193,78 @@
                             <th>Registered Broadcasters</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>5000</td>
+                            <td>efpshrt123</td>
+                            <td>5:00</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="promotion-tblmobile">
+                    <thead>
+                        <tr>
+                            <th>Promotion Earning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5000</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Promotion Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>efpshrt123</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Promotion Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5:00</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Promotion Registration Limit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Total Viewers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Registered Broadcasters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <hr>
             <h2 class="promotion-header">Broadcaster with promotion codes</h2>
@@ -200,6 +275,34 @@
                             <th>Promotion Code</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kofi</td>
+                            <td>efpshrt123</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="promotion-tblmobile">
+                    <thead>
+                        <tr>
+                            <th>Broadcaster</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kofi</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Promotion Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>efpshrt123</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <hr>
         </section>
@@ -209,7 +312,7 @@
                 <thead>
                     <tr>
                         <th>Games</th>
-                        <th>Lovense Fav Buttons</th>
+                        <th>Lovense Fav Button</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -221,12 +324,12 @@
             </table>
             <br>
             <h5>Favorite buttons</h5>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Button</th>
-                        <th>Total Availed</th>
-                        <th>Revenue</th>
+                        <th scope="col">Button</th>
+                        <th scope="col">Total Availed</th>
+                        <th scope="col">Revenue</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -235,67 +338,61 @@
                         <td>2</td>
                         <td>19.00</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>OH</td>
                         <td>4</td>
                         <td>198.00</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>OHYes</td>
                         <td>2</td>
                         <td>149.00</td>
                     </tr>
-                </tbody>
-                <tbody class="total">
-                    <tr>
                         <td>Total:</td>
                         <td></td>
                         <td>366.00</td>
-                    </tr>
                 </tbody>
             </table>
             <br>
             <h5>Menu Items</h5>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Item</th>
-                        <th>Total Availed</th>
-                        <th>Revenue</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Total Availed</th>
+                        <th scope="col">Revenue</th>
                     </tr>
                 </thead>
-                <tbody class="total">
+                <tbody>
                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tr>
                         <td>Total:</td>
                         <td></td>
                         <td>0</td>
-                    </tr>
                 </tbody>
             </table>
             <br>
             <h5>Slot Machine</h5>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Prize</th>
-                        <th>Total Availed</th>
-                        <th>Revenue</th>
+                        <th scope="col">Prize</th>
+                        <th scope="col">Total Availed</th>
+                        <th scope="col">Revenue</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Slot Spin</td>
                         <td>3</td>
-                        <td>297</td>
+                        <td>297.00</td>
                     </tr>
-                </tbody>
-                <tbody class="total">
                     <tr>
-                        <td>Total:</td>
+                        <td>Total</td>
                         <td></td>
                         <td>297.00</td>
                     </tr>
@@ -305,39 +402,38 @@
 
         <section id="subscriptions" class="show-subscriptions">
             <h2>Subscriptions</h2>
-            <table class="table-subscription">
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Cost</th>
                         <th scope="col">Vibez</th>
-                        <th scope="col">Free slot spins</th>
+                        <th scope="col">Free Slot Spins</th>
                         <th scope="col">Badge</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">$100</th>
+                        <td>$100</td>
                         <td>1000</td>
                         <td>100</td>
                         <td><img src="" alt="Error"></td>
                         <td><button class="subscriptionupdate-btn">Update</button> <button class="subscriptiondelete-btn">Delete</button></td>
                     </tr>
                     <tr>
-                        <th scope="row">$200</th>
+                        <td>$200</td>
                         <td>1500</td>
                         <td>200</td>
                         <td><img src="" alt="Error"></td>
                         <td><button class="subscriptionupdate-btn">Update</button> <button class="subscriptiondelete-btn">Delete</button></td>
                     </tr>
                     <tr>
-                        <th scope="row">$300</th>
+                        <td>$300</td>
                         <td>3000</td>
                         <td>200</td>
                         <td><img src="" alt="Error"></td>
                         <td><button class="subscriptionupdate-btn">Update</button> <button class="subscriptiondelete-btn">Delete</button></td>
                     </tr>
                 </tbody>
-
             </table>
         </section>
         <section id="idcheck" class="show-idcheck">
@@ -353,6 +449,18 @@
                             <th scope="col">Birthdate</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                         <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </section>

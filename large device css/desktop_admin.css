@@ -1,0 +1,348 @@
+@media only screen and (min-width: 993px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        height: 100%;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: sans-serif;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    .header-container {
+        width: 100%;
+        background: black;
+    }
+    .header-logo {
+        background: black;
+        height: 30px;
+    }
+    .logout-icon{
+        margin-right: 1%;
+        height: 30px;
+        float: right;
+        display: flex;
+    }
+    #dropdwn-btn {
+        background: none;
+        border: none;
+    }
+    /*Dashboard*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navigation Bar */
+  nav {
+    margin-top: auto;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: black;
+    color: #fff;
+  }
+  /* Content Section */
+    main {
+        margin-left: 15%;
+        padding: 20px;
+    }
+    section {
+        display: none;
+      }
+      #dashboard.show-dashboard,
+      #messages.show-messages,
+      #staff.show-staff,
+      #memos.show-memos,
+      #promotions.show-promotions,
+      #interactives.show-interactives,
+      #subscriptions.show-subscriptions,
+      #idcheck.show-idcheck,
+      #badacters.show-badacters,
+      #todolist.show-todolist{
+        display: block;
+      }
+    
+      .li-header{
+        padding: 4px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.267);
+        font-family: Arial;
+        font-size: 15px;
+      }
+      .user-admin {
+        padding: 4px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.463);
+        font-family: Arial;
+        font-size: 15px;
+      }
+      /*Dashboard Section*/
+    .show-dashboard{
+        margin-left: 5%;
+    }
+    .dashboard-content {
+        margin-top: 40px;
+        display: flex;
+        gap: 3%;
+    }
+    .dashboard-containers {
+        width: 20%;
+        height: 70px;
+        border: 1px solid rgba(0, 0, 0, 0.411);
+        border-radius: 10px;
+        box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+        -webkit-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+        -moz-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    }
+    .dashboard-containers p {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .dashboard-amount {
+        display: flex;
+        gap: 3%;
+    }
+    .amount-containers {
+        width: 20%;
+        height: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.411);
+        border-radius: 10px;
+        box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+        -webkit-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+        -moz-box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
+    }
+    .amount-containers p {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .setvibez-btn {
+        display: flex;
+        gap: 10%;
+        text-align: center;
+    }
+    .setvibez-btn button {
+        background: black;
+        border: 0.5px solid white;
+        padding: 8px 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    .setvibez-btn button:hover {
+        background: #990000;
+        transition: 0.5s;
+    }
+        /*Message Section*/
+    .show-messages {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .pop-overmsg {
+        text-decoration: none;
+        color: white;
+        background: #990000;
+        padding: 4px 8px;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+
+    /*Staff Section*/
+    .show-staff {
+        margin-left: 5%;
+    }
+    .showstaff-tbl .showstaff-tr {
+        padding: .40em;
+    }
+    .showstaff-thead .showstaff-tr {
+        background-color: rgba(0, 0, 0, 0.178);
+    }
+    .showstaff-tbdy .showstaff-tr:nth-child(even) {
+        background-color: white;
+    }
+    .tbl-th,
+    .tbl-td{
+        font-size: 1em;
+        position: 1em;
+        text-align: center;
+    }
+    .tbl-th {
+    color: white;
+    font-size: 1.15em;
+    }
+
+    .addstaff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 2px  6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+    }
+    .addstaff-btn:hover {
+        background: #99000096;
+        color: white;
+        transition: 0.5s;
+    }
+    .editpermission-btn {
+        background: #990000;
+        width: 100%;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        border: 0.5px solid white;
+        padding: 2px 6px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .editpermission-btn:hover {
+        background: #99000096;
+        color: white;
+        transition: 0.5s;
+    }
+    .editsatff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 2px 6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        border: 0.5px solid white;
+    }
+    .editsatff-btn:hover {
+        background: #99000096;
+        color: white;
+        transition: 0.5s;
+    }
+    .delstaff-btn {
+        background: #990000;
+        width: 100%;
+        padding: 2px 6px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        border: 0.5px solid white;
+    }
+    .delstaff-btn:hover {
+        background: #99000096;
+        color: white;
+        transition: 0.5s;
+    }
+
+    /*Memos Section*/
+    .show-memos {
+        margin-left: 5%;
+    }
+    /*Promotions Sections*/
+    .show-promotions {
+        margin-left: 5%;
+    }
+    .promotion-header {
+        width: 100%;
+        text-align: center;
+    }
+    .addpromotion-btn {
+        background: #990000;
+        padding: 0 0;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        border: 0.5px solid white;
+        padding: 2px 5px;
+    }
+    .addpromotion-btn:hover {
+        background: #99000096;
+        color: white;
+        transition: 0.5s;
+        border-radius: 5px;
+    }
+    .promotion-tbl th {
+        font-weight: 450;
+        background: none;
+        padding: 0px 15px;
+    }
+    /*Interactive Section*/
+    .show-interactives {
+        margin-left: 5%;
+    }
+    .interactives-tbl th{
+        background: none;
+        font-weight: 500;
+    }
+    .interactives-tbl button {
+        background: #990000;
+        border: #990000;
+        color: white;
+        padding: 4px 4px;
+        border-radius: 5px;
+        line-height: 17px;
+    }
+    .interactives-tbl button:hover {
+        background: #9900008a;
+        transition: 0.5s;
+    }
+    .total tr {
+        font-weight: bold;
+    }
+    /*Subscription Section*/
+    .show-subscriptions {
+        margin-left: 5%;
+    }
+    .subscriptionupdate-btn {
+        background: #0081CF;
+        border: 0.5px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .subscriptionupdate-btn:hover {
+        background: #0080cf70;
+        transition: 0.5s;
+    }
+
+    .subscriptiondelete-btn {
+        background: #990000;
+        border: 0.5px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .subscriptiondelete-btn:hover {
+        background: #99000079;
+        transition: 0.5s;
+    }
+
+    /*ID Check Section*/
+    .show-idcheck {
+        margin-left: 5%;
+    }
+    .show-idcheck button {
+        border: #990000;
+        background: #990000;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 5px;
+    }
+    .show-idcheck button:hover {
+        background: #99000050;
+    }
+    .idcheck-tblcontainer {
+        margin-top: 20px;
+        width: 80%;
+        height: 250px;
+        border: 0.5px solid rgba(0, 0, 0, 0.295);
+        border-radius: 10px;
+    }
+    .tbl-title {
+        padding-left: 10%;
+        width: 100%;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.295);
+    }
+
+    /* Bad Acters Section*/
+    .show-badacters {
+        margin-left: 5%;
+    }
+}
