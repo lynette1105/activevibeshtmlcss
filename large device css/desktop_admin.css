@@ -297,17 +297,18 @@ body {
         border: 0.5px solid white;
         color: white;
         border-radius: 5px;
+        padding: 5px 6px;
     }
     .subscriptionupdate-btn:hover {
         background: #0080cf70;
         transition: 0.5s;
     }
-
     .subscriptiondelete-btn {
         background: #990000;
         border: 0.5px solid white;
         color: white;
         border-radius: 5px;
+        padding: 5px 6px;
     }
     .subscriptiondelete-btn:hover {
         background: #99000079;

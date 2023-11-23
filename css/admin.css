@@ -219,6 +219,12 @@ main {
 }
 
 /*Staff Section*/
+.showstaff-tblmobile {
+    display: none;
+}
+.staffbtn-container {
+    display: none;
+}
 .show-staff {
     margin-left: 5%;
 }
@@ -351,10 +357,11 @@ main {
     font-weight: 500;
 }
 .interactives-tbl button {
+    height: 30px;
     background: #990000;
     border: #990000;
     color: white;
-    padding: 4px 4px;
+    padding: 8px 4px;
     border-radius: 5px;
     line-height: 17px;
 }
@@ -421,4 +428,7 @@ main {
 /* Bad Acters Section*/
 .show-badacters {
     margin-left: 5%;
+}
+.badacters-tblcontainermobile {
+    display: none;
 }

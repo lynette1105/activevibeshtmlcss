@@ -1,12 +1,47 @@
 @media only screen and (min-width: 769px) and (max-width: 992px) {
         /* Navigation Bar */
     nav {
-        margin-top: auto;
+        margin-top: 0;
         position: fixed;
         height: 100%;
         width: 15%;
         background-color: black;
         color: #fff;
+    }
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        height: 100%;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: sans-serif;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    footer {
+        height: 100px;
+    }
+    .header-container {
+        width: 100%;
+        background: black;
+    }
+    .header-logo {
+        background: black;
+        height: 30px;
+    }
+    .logout-icon{
+        margin-right: 1%;
+        height: 30px;
+        float: right;
+        display: flex;
+    }
+    #dropdwn-btn {
+        background: none;
+        border: none;
     }
     /*Dashboard Section*/
     .show-dashboard{
@@ -40,22 +75,31 @@
         border-radius: 5px;
     }
     /*Staff Section*/
+    .showstaff-tblmobile {
+        display: none;
+    }
+    .staffbtn-container {
+        display: none;
+    }
     .show-staff {
         width: 100%;
         margin-left: 0;
+    }
+    .showstaff-tbl {
+        width: 100%;
     }
     .showstaff-tbl .showstaff-tr {
         padding: .10em;
     }
     .tbl-th,
     .tbl-td {
-        font-size: 0.6em;
+        font-size: 0.8em;
         position: 0.6;
         text-align: center;
     }
     .tbl-th {
         color: white;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 450;
     }
     .addstaff-btn {
@@ -73,16 +117,16 @@
         color: white;
         border-radius: 5px;
         border: 0.5px solid white;
-        padding: 3px 6px;
+        padding: 4px 6px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+        -o-border-radius: 5px
     }
     .editsatff-btn {
         background: #990000;
         width: 100%;
-        padding: 3px 6px;
+        padding: 4px 6px;
         border: none;
         color: white;
         border-radius: 3px;
@@ -91,7 +135,7 @@
     .delstaff-btn {
         background: #990000;
         width: 100%;
-        padding: 3px 6px;
+        padding: 4px 6px;
         border: none;
         color: white;
         border-radius: 3px;
@@ -116,6 +160,32 @@
     .show-subscriptions {
         width: 100%;
         margin-left: 0;
+    }
+    .show-subscriptions .table {
+        width: 100%;
+    }
+    .subscriptionupdate-btn {
+        background: #0081CF;
+        border: 0.5px solid white;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 6px;
+    }
+    .subscriptionupdate-btn:hover {
+        background: #0080cf70;
+        transition: 0.5s;
+    }
+    
+    .subscriptiondelete-btn {
+        background: #990000;
+        border: 0.5px solid white;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 6px;
+    }
+    .subscriptiondelete-btn:hover {
+        background: #99000079;
+        transition: 0.5s;
     }
     /*Id Check Section*/
     .show-idcheck {
