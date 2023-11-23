@@ -137,13 +137,17 @@ nav {
     text-decoration: underline;
 }
 
-.gear-icon{
-    float: right;
-    margin-top: 2px;
-    margin-right: 20px;
-}
 
-  
+.logout-icon{
+    margin-right: 1%;
+    height: 30px;
+    float: right;
+    display: flex;
+}
+#dropdwn-btn {
+    background: none;
+    border: none;
+}  
   /*Tabs*/
 .tab {
     width: 100%;

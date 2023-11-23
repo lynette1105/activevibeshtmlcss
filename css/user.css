@@ -50,7 +50,6 @@ footer {
     align-items: center;
     justify-content: flex-start;
 }
-
 .mobile-menu {
     display: none;
     position: absolute;
@@ -100,27 +99,17 @@ nav {
 .username {
     margin-top: 3.5px;
 }
-.log-outbtn {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    border: 1px solid white;
-    padding: 0.5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 90px;
-}
-.log-outbtn:hover {
-    color: #990000;
-    border: 1px solid #990000;
-    background: white;
-}
-.gear-icon{
-    float: right;
-    margin-top: 2px;
-    margin-right: 20px;
-}
 
+.logout-icon{
+    margin-right: 1%;
+    height: 30px;
+    float: right;
+    display: flex;
+}
+#dropdwn-btn {
+    background: none;
+    border: none;
+}
   /*Tabs*/
 .tab {
     width: 100%;
