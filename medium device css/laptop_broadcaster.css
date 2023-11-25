@@ -177,4 +177,33 @@
         border: 0.8px solid rgba(0, 0, 0, 0.368);
         border-radius: 20px;
     }
+     /*Rooms*/
+     .rooms {
+        margin-top: 5px;
+    }
+    .rooms-btn {
+        color: white;
+        text-decoration: none;
+        font-family: Verdana;
+        margin-left: 15px;
+    }
+    .rooms-btn:hover {
+        text-decoration: underline;
+    }
+    .whole-roomcontainer{
+        justify-content: center;
+        gap: 1%;
+        display: grid;
+        flex-wrap: wrap;
+    }
+    #room-containermobile {
+        margin-top: 20px;
+        width: 70%;
+        margin-left: 15%;
+        height: 600px;
+        border: 1px solid rgba(0, 0, 0, 0.361);
+        border-radius: 15px;
+        background-color: #990000;
+    }
+
 }
