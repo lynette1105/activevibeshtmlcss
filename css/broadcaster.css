@@ -110,12 +110,11 @@ nav {
     background: none;
     border: none;
 } 
-/*Tabs*/
+/*Home Tabs*/
 .tab {
     width: 100%;
     height: auto;
 }
-
 #myTab {
     width: 100%;
 }
@@ -186,4 +185,336 @@ nav {
 }
 .rooms-btn:hover {
     text-decoration: underline;
+}
+.whole-roomcontainer{
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-container {
+    margin-top: 20px;
+    width: 45%;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.361);
+    border-radius: 15px;
+    background-color: #990000;
+}
+.headings-roomcontainer {
+    width: 96%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.explosion {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.406);
+}
+.video-container {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+}
+.video {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    margin: 5%;
+}
+.goonline-btn {
+    border: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.goonline-btn:hover {
+    background: rgba(0, 0, 0, 0.379);
+}
+/*Room Chat Tabs*/
+#nav-chat-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-privatechat-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-users-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-chatsettings-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-followers-tab {
+    font-size: 15px;
+    color: black;
+    font-family: Josefin Sans;
+}
+/*Room2 Chat Area*/
+.conversation-box {
+    width: 450%;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.735);
+    box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
+}
+.chatbox-container {
+    margin-left: 15%;
+    width: 100%;
+    height: 100%;
+}
+.chat-box {
+    margin-top: 10%;
+    width: 450%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.735);
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
+}
+.chat-box:focus {
+    outline: none;
+}
+/*Room2 Chat Settings Tab*/
+.chatsettings-container {
+    margin-top: 20%;
+    height: auto;
+    margin-left: 15%;
+    width: 450%;
+}
+#publichatcheckbox {
+    width: 15px;
+    height: 15px;
+}
+.publicchat {
+    color: white;
+}
+.chatsettings-container p {
+    color: rgba(255, 255, 255, 0.548);
+}
+#privatechatcheckbox{
+    width: 15px;
+    height: 15px;
+}
+.privatechat {
+    color: white;
+}
+.chatprice-container {
+    margin-top: 20%;
+    height: auto;
+    margin-left: 15%;
+    width: 450%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.chatprice {
+    color: white;
+}
+.numberprice {
+    outline: none;
+}
+.chatprice-container p {
+    color: rgba(255, 255, 255, 0.548);
+}
+.setprice-btn {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+.setprice-btn:hover {
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+.fontsize-container {
+    margin-top: 20%;
+    height: auto;
+    margin-left: 15%;
+    width: 450%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.fontsize {
+    color: white;
+    font-weight: bold;
+}
+.fontsizebox {
+    outline: none;
+    width: 15%;
+}
+.bans-link {
+    text-decoration: none;
+    color: white;
+}
+.bans-link:hover {
+    text-decoration: underline;
+}
+ /*Room2 Followers Tab*/
+ .vibezspent-tblmobile {
+    display: none;
+ }
+ .followerstable-container {
+    height: auto;
+    margin: 0;
+    width: 480%;
+ }
+ .vibez-spent {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+ }
+.vibezspent-tbl {
+    border-top: 2px solid rgba(255, 255, 255, 0.568);
+    
+}
+.vibezspent-tbl th {
+    color: white;
+    font-weight: 450;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.568);
+}
+.vibezspent-tbl td {
+    color: white;
+}
+/*Profile*/
+#nav-usertabContent {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+#profile-container {
+    background: none;
+    border: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#nav-tab {
+    border: none;
+}
+#nav-roomstats-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-roomstats-tab:focus {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    font-weight: bold;
+}
+#nav-interactives-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-interactives-tab:focus {
+    background-color: transparent;
+    border: none;
+    color:#990000;
+    font-weight: bold;
+}
+#nav-roomrules-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-roomrules-tab:focus {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    font-weight: bold;
+}
+#nav-bio-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-bio-tab:focus {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    font-weight: bold;
+}
+#nav-connectlovensetoy-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-connectlovensetoy-tab:focus {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    font-weight: bold;
+}
+#nav-settingsandprivacy-tab {
+    color: black;
+    font-family: Josefin Sans;
+}
+#nav-settingsandprivacy-tab:focus {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    font-weight: bold;
+}
+
+/*Settings*/
+.settings-btn {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-size: 23px;
+}
+.settings-container {
+    width: 98%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+}
+
+.settings-content {
+    width: 20%;
+    height: 100%;
+}
+
+.setting {
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+
+.options {
+    margin-top: 10px;
+    color: #990000;
+}
+
+.regions {
+    font-family: sans-serif;
+}
+
+.checkbox-options {
+    width: 17px;
+    height: 17px;
+}
+
+.locations {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.btn-close{
+    outline: none;
 }

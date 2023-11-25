@@ -459,41 +459,24 @@ nav {
     color: black;
     font-family: Josefin Sans;
 }
-#nav-chat-tab:focus {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
-}
 #nav-interact-tab {
     font-size: 15px;
     color: black;
     font-family: Josefin Sans;
-}
-#nav-interact-tab:focus {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
 }
 #nav-privatechat-tab {
     font-size: 15px;
     color: black;
     font-family: Josefin Sans;
 }
-#nav-privatechat-tab:focus {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
-}
 /*Chat Area*/
 .conversation-box {
     width: 450%;
-    height: 400px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.735);
+    box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
 }
 .chatbox-container {
     margin-left: 15%;
@@ -505,9 +488,10 @@ nav {
     height: 480px;
 }
 .chat-box {
+    margin-top: 10%;
     width: 450%;
     height: 50px;
-    background: white;
+    background: rgba(255, 255, 255, 0.735);
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: -3px 2px 27px -1px rgba(0,0,0,0.75);
@@ -708,16 +692,4 @@ nav {
 .locations {
     font-size: 18px;
     font-family: sans-serif;
-}
-
-.close-button {
-    background-color: white;
-    color: #990000;
-    border:none;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    font-weight: bolder;
-    font-size: 25px;
-    float: right;
 }

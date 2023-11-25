@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broadcaster</title>
     <link rel="stylesheet" href="/css/broadcaster.css">
+    <link rel="stylesheet" href="/extra small device css/mobile_broadcaster.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -49,7 +50,209 @@
                 <li class="responsivelink"><a class="navresponsive-link" id="logout" href="/index.html">Log out</a></li>
             </ul>
     </div>
-    
+    <div class="whole-roomcontainer">
+        <div class="room-container" id="room-containermobile">
+            <div class="headings-roomcontainer">
+                <p class="explosion">Explosion: No goal has been set</p>
+            </div>
+            <div class="video-container">
+                <video controls muted class="video" src="/video/samplevideo.mp4"></video>
+            </div>
+            <button class="goonline-btn">Go Online</button>
+        </div>
+
+        <div class="room-container" id="room2-container">
+            <nav class="tab">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-chat-tab" data-bs-toggle="tab" data-bs-target="#nav-chat" type="button" role="tab" aria-controls="nav-chat" aria-selected="true">Chat
+                    </button>
+                    <button class="nav-link" id="nav-privatechat-tab" data-bs-toggle="tab" data-bs-target="#nav-privatechat" type="button" role="tab" aria-controls="nav-privatechat" aria-selected="false">Private Chat
+                    </button>
+                    <button class="nav-link" id="nav-users-tab" data-bs-toggle="tab" data-bs-target="#nav-users" type="button" role="tab" aria-controls="nav-users" aria-selected="false">Users (1)
+                    </button>
+                    <button class="nav-link" id="nav-chatsettings-tab" data-bs-toggle="tab" data-bs-target="#nav-chatsettings" type="button" role="tab" aria-controls="nav-chatsettings" aria-selected="false">Chat Settings
+                    </button>
+                    <button class="nav-link" id="nav-followers-tab" data-bs-toggle="tab" data-bs-target="#nav-followers" type="button" role="tab" aria-controls="nav-followers" aria-selected="false">Followers
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-chattabContent">
+                <div class="tab-pane fade show active" id="nav-chat" role="tabpanel" aria-labelledby="nav-chat-tab" tabindex="0">
+                    <div class="chatbox-container">
+                        <div class="chat">
+                            <div class="conversation-box"></div>
+                            <input class="chat-box" type="text" placeholder="Send a message">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-privatechat" role="tabpanel" aria-labelledby="nav-privatechat-tab" tabindex="0">
+                    <div class="chatbox-container">
+                        <div class="chat">
+                            <div class="conversation-box"></div>
+                            <input class="chat-box" type="text" placeholder="Private chat">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-users" role="tabpanel" aria-labelledby="nav-users-tab" tabindex="0">
+                    <div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-chatsettings" role="tabpanel" aria-labelledby="nav-chatsettings-tab" tabindex="0">
+                    <div class="chatsettings-container">
+                        <input type="checkbox" name="" id="publichatcheckbox">
+                        <label class="publicchat" for="publicChat">Public Chat</label>
+                        <p>Do you want your room to have a public chat?</p>
+                        <input type="checkbox" name="" id="privatechatcheckbox">
+                        <label class="privatechat" for="privatechat">Private Chat</label>
+                        <p>Do you want your room to have a private chat?</p>
+                    </div>
+                    <div class="chatprice-container">
+                        <label class="chatprice" for="chatprice">Private Chat Price</label>
+                        <input class="numberprice" type="number" name="" id="">
+                        <p>You can put a price pre Vibe</p>
+                        <button class="setprice-btn">Set</button>
+                    </div>
+                    <div class="fontsize-container">
+                        <label class="fontsize" for="fontsize">Font Size:</label>
+                        <input class="fontsizebox" type="number" name="" id="">
+                        <p><a class="bans-link" href="#">View/Edit Bans and Silences</a></p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-followers" role="tabpanel" aria-labelledby="nav-followers-tab" tabindex="0">
+                    <div class="followerstable-container">
+                        <h5 class="vibez-spent">VIBEZ SPENT</h5>
+                        <table class="vibezspent-tbl">
+                            <thead>
+                                <tr>
+                                    <th>Follower</th>
+                                    <th>Status</th>
+                                    <th>Sent Vibez</th>
+                                    <th>Menu Items</th>
+                                    <th>Slot Machine</th>
+                                    <th>Favorite buttons</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                    <td>____________</td>
+                                    <td>____________</td>
+                                    <td>____________</td>
+                                    <td>____________</td>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="vibezspent-tblmobile">
+                            <thead>
+                                <tr>
+                                    <th>Follower:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Status:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Sent Vibez:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Menu Items:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Slot Machine:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Favorite buttons:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>____________</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="room-container" id="profile-container">
+            <nav class="tab">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-roomstats-tab" data-bs-toggle="tab" data-bs-target="#nav-roomstats" type="button" role="tab" aria-controls="nav-roomstats" aria-selected="true">Room Stats
+                    </button>
+                    <button class="nav-link" id="nav-interactives-tab" data-bs-toggle="tab" data-bs-target="#nav-interactives" type="button" role="tab" aria-controls="nav-interactives" aria-selected="false">Interactives
+                    </button>
+                    <button class="nav-link" id="nav-roomrules-tab" data-bs-toggle="tab" data-bs-target="#nav-roomrules" type="button" role="tab" aria-controls="nav-roomrules" aria-selected="false">Room Rules
+                    </button>
+                    <button class="nav-link" id="nav-bio-tab" data-bs-toggle="tab" data-bs-target="#nav-bio" type="button" role="tab" aria-controls="nav-bio" aria-selected="false">Bio
+                    </button>
+                    <button class="nav-link" id="nav-connectlovensetoy-tab" data-bs-toggle="tab" data-bs-target="#nav-connectlovensetoy" type="button" role="tab" aria-controls="nav-connectlovensetoy" aria-selected="false">Connect Lovense Toy
+                    </button>
+                    <button class="nav-link" id="nav-settingsandprivacy-tab" data-bs-toggle="tab" data-bs-target="#nav-settingsandprivacy" type="button" role="tab" aria-controls="nav-settingsandprivacy" aria-selected="false">Settings and Privacy
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-usertabContent">
+                <div class="tab-pane fade show active" id="nav-roomstats" role="tabpanel" aria-labelledby="nav-roomstats-tab" tabindex="0">   
+                    <h2 class="roomstats-title">Room Stats</h2>
+                </div>
+                <div class="tab-pane fade" id="nav-interactives" role="tabpanel" aria-labelledby="nav-interactives-tab" tabindex="0">
+                    <h2 class="interactives-title">Interactives</h2>
+                </div>
+                <div class="tab-pane fade" id="nav-roomrules" role="tabpanel" aria-labelledby="nav-roomrules-tab" tabindex="0">
+                    <h2 class="roomrules-title">Room Rules:</h2>
+                </div>
+                <div class="tab-pane fade" id="nav-bio" role="tabpanel" aria-labelledby="nav-bio-tab" tabindex="0">
+                    <h2 class="bio-title">Bio</h2>
+                </div>
+                <div class="tab-pane fade" id="nav-connectlovensetoy" role="tabpanel" aria-labelledby="nav-connectlovensetoy-tab" tabindex="0">
+                    <h2 class="connectlovensetoy-title">Connect Lovense Toy</h2>
+                </div>
+                <div class="tab-pane fade" id="nav-settingsandprivacy" role="tabpanel" aria-labelledby="nav-settingsandprivacy-tab" tabindex="0">
+                    <h2 class="settingsandprivacy-title">Settings and Privacy</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/javascript/script_broadcaster.js"></script>
 </body>
