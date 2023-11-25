@@ -265,11 +265,12 @@
     }
     
     .video {
-        width: 100%;
+        width: 90%;
         height: 100%;
         border-radius: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
+        margin-left: 5%;
     }
     .mode{
         margin-left: 2%;

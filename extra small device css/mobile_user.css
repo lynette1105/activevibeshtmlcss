@@ -141,11 +141,14 @@
         z-index: 5;
     }
     .video-container {
-        width: 98%;
+        width: 100%;
         height: auto;
-        margin-left: 1%;
-        margin-right: 1%;
-        border-radius: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video {
+        width: 90%;
+        margin-left: 5%;
     }
     .whole-roomcontainer{
         width: 100%;
@@ -192,13 +195,18 @@
         display: flex;
     }
     .vibez{
-        width: 100%;
+        width: 70%;
         height: 60%;
         margin-top: -15px;
         border-radius: 5px;
         background: black;
     }
-
+    .buysend-vibez {
+        margin-top: 10%;
+    }
+    .conversation-box {
+        margin-top: 10%;
+    }
     /*room containers tabs*/
     #nav-tab {
         border: none;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 993px) {
     @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital@1&family=Lumanosimo&display=swap');
     ;
     html {
@@ -10,12 +10,12 @@
         background: rgba(255, 255, 255, 0.683);
         margin: 0;
     }
-    
+
     footer {
         height: 350px;
     }
-        /* Nav mobile responsive*/
-    #hamburger-icon{
+     /* Nav mobile responsive*/
+     #hamburger-icon{
         display: none;
         margin: auto 0;
         cursor: pointer;
@@ -30,27 +30,28 @@
         margin: 6px 0;
         transition: 0.4s;
     }
+
     .open .bar1{
         -webkit-transform: rotate(-45deg) translate(-6px, 6px);
         transform: rotate(-45deg) translate(-6px, 6px);
     }
-    
+
     .open .bar2 {
         opacity: 0;
     }
-    
+
     .open .bar3 {
         -webkit-transform: rotate(45deg) translate(-6px, -8px);
         transform: rotate(45deg) translate(-6px, -8px);
     }
-    
+
     .open .mobile-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
-    
+
     .mobile-menu {
         display: none;
         position: absolute;
@@ -76,6 +77,7 @@
         padding-top: 0;
         display: flex;
     }
+
     .nav-container {
         width: 20%;
         background: #990000;
@@ -94,8 +96,11 @@
     .home-btn:hover {
         text-decoration: underline;
     }
+    .usernameicon {
+        padding: 1px;
+    }
     .username {
-        margin-top: 5px;
+        display: flex;
     }
     .log-outbtn {
         text-decoration: none;
@@ -112,10 +117,31 @@
         border: 1px solid #990000;
         background: white;
     }
-    .gear-icon{
-        float: right;
-        margin-top: 2px;
-        margin-right: 20px;
+    .signup-link {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 1.5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .signup-link:hover {
+        color: #990000;
+        border: 1px solid #990000;
+        background: white;
+    }
+    .title {
+        color: white;
+        font-family: Lumanosimo;
+        font-size: 15px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .title-link {
+        text-decoration: none;
+        color: white;
     }
         /*Tabs*/
     .tab {
@@ -162,11 +188,11 @@
         gap: 5px;
     }
     .contentimagecontainer {
-        width: 450%;
+        width: 470%;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
         margin-top: 40px;
         margin-left: 40px;
     }
@@ -177,8 +203,8 @@
         border: 0.8px solid rgba(0, 0, 0, 0.368);
         border-radius: 20px;
     }
-    /*Rooms*/
-    .rooms {
+     /*Rooms*/
+     .rooms {
         margin-top: 5px;
     }
     .rooms-btn {
@@ -193,30 +219,58 @@
     .whole-roomcontainer{
         justify-content: center;
         gap: 1%;
-        display: grid;
+        display: flex;
         flex-wrap: wrap;
     }
     .room-container {
         margin-top: 20px;
-        width: 80%;
-        margin-left: 10%;
+        width: 48%;
         height: 600px;
         border: 1px solid rgba(0, 0, 0, 0.361);
         border-radius: 15px;
         background-color: #990000;
     }
-    /*room 2 tabs*/
-    /*Chat*/
-    .conversation-box {
-        height: 400px;
-        margin-top: 20%;
+    
+    .headings-roomcontainer {
+        width: 96%;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
     }
-    /*Follower*/
-    .vibezspent-tbl {
+    
+    .explosion {
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: rgba(255, 255, 255, 0.406);
+    }
+    .video-container {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 5px;
+    }
+    .video {
+        width: 90%;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+    }
+    .vibezspent-tbl thead {
         width: 100%;
         justify-content: center;
     }
-
+    .vibezspent-tbl th {
+        padding: 2px 2px;
+        font-size: 14px;
+    }
+    .conversation-box {
+        margin-top: 20%;
+        height: 400px;
+    }
     /*Settings*/
     .settings-btn {
         text-decoration: none;
@@ -269,4 +323,4 @@
         font-size: 25px;
         float: right;
     }
-}
+}       
